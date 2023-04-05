@@ -1,7 +1,7 @@
 const algosdk = require('algosdk');
 
 // Create Address Manager
-createAdress=()=> {
+createAdress=() => {
     let account = algosdk.generateAccount();
     console.log("Account Address: ", account);
 

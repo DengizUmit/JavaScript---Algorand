@@ -1,4 +1,8 @@
 const algosdk = require('algosdk');
 const createAdress = require('./address');
+const checkBalance = require('./balance');
 
-createAdress();
+require('dotenv').config();
+
+// createAdress();
+checkBalance()
