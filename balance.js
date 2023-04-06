@@ -9,7 +9,7 @@ checkBalance=() => {
     const TestServer = "https://testnet-algorand.api.purestake.io/ps2";
 
     let client = new algosdk.Algodv2(token, TestServer, port);
-    let account = "CGYYSNTW5QYKBII3HHQBZUI4R4EUHT4N5GS72M6BTO3VRL72UQMS7AXBLU";
+    let account = "ZD3KGXM3STSKWOLGXTNJUU5ZJ43ARSR6C46VL5BHTPD4HGQL3ZFVS5IZDU";
 
     (
         async () => {
